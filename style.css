@@ -1,0 +1,169 @@
+body {
+    background-color: black; 
+    color: white; 
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    color: #38b891; 
+}
+
+a {
+    color: #3eb893; 
+    text-decoration: none;
+}
+
+.landing-page {
+    display: flex;
+    gap: 5em;
+    margin-left: 8%;
+}
+
+#img {
+    width: 30%;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.landing-page p {
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.icons a {
+    color: #1a936f; 
+}
+
+#logo{
+    max-width: 200px; 
+    height: auto; 
+}
+
+
+.projects {
+    padding: 50px 0;
+    text-align: center;
+}
+
+
+.skills {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.title{
+    color: #1a936f; 
+    font-weight: bold;
+    font-size: 48px;
+    text-align: center;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    justify-content: center;
+    padding: 50px;
+}
+
+.skill-card {
+    background-color: #e0cece; 
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    width: 300px; 
+}
+
+.skill-icon {
+    font-size: 36px;
+    color: #1a936f; 
+}
+
+.skill-title {
+    margin-top: 10px;
+    color: #1a936f; 
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+.skill-description {
+    margin-top: 10px;
+    color: #333; 
+    font-size: 14px;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.project-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.project-card h2 {
+    color: #1a936f;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.project-card img {
+    max-width: 100%;
+    height: 30%;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.project-card p {
+    margin-top: 10px;
+    color: #333;
+    font-size: 14px;
+    text-align: left;
+}
+
+.demo-button,
+.github-button {
+    background-color: #1a936f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+
+.demo-button:hover,
+.github-button:hover {
+    background-color: #137155;
+}
+
+
+
+
+
+
